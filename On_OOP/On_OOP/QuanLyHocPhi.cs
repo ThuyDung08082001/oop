@@ -119,7 +119,7 @@ namespace On_OOP
                 if (arr[i].MaSV.Equals(maSV))
                 {
                     Array.Resize(ref arrMaSV, arrMaSV.Length + 1);
-                    arr[arrMaSV.Length - 1] = arr[i];
+                    arrMaSV[arrMaSV.Length - 1] = arr[i];
                 }
             }
             return arrMaSV;
